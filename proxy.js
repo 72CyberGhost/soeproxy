@@ -159,7 +159,7 @@ logger.debug('Determining runtime environment for HTTP/HTTPS startup...');
 // Allow overriding SSL paths and passphrase via env vars for flexibility
 const sslKeyPath = process.env.SSL_KEY || 'certs/lab02.key';
 const sslCertPath = process.env.SSL_CERT || 'certs/lab02.pem';
-const sslPassphrase = process.env.SSL_PASSPHRASE || '!lab02.saplab.local!';
+const sslPassphrase = process.env.SSL_PASSPHRASE || 'password';
 
 // Start server based on environment
 if (isCloudFoundry) {
