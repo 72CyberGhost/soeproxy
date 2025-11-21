@@ -1,0 +1,10 @@
+---
+applications:
+- name: soeproxy
+  random-route: false
+  memory: 1024M
+  instances: 1
+  buildpacks:
+  - nodejs_buildpack
+  env:
+    DOX_SCHEMA: "SO_Auto_Extraction_Schema"

@@ -1,0 +1,26 @@
+{
+  "name": "soeproxy",
+  "version": "1.0.0",
+  "description": "Sales Oder Entry Proxy",
+  "license": "ISC",
+  "author": "Pietro Rusconi",
+  "type": "commonjs",
+  "main": "proxy.js",
+  "engines": {
+    "node": "24.x.x"
+  },
+  "scripts": {
+    "start": "node proxy.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "form-data": "^4.0.4",
+    "http": "^0.0.1-security",
+    "http-proxy": "^1.18.1",
+    "http-proxy-middleware": "^3.0.5",
+    "morgan": "^1.10.1",
+    "multer": "^2.0.2",
+    "winston": "^3.18.3"
+  }
+}
